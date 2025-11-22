@@ -1,0 +1,38 @@
+\begin{table}[htbp]\centering
+\caption{TABLE VI: OLS and TSLS Estimates}
+\begin{tabular}{l*{8}{r}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}\\
+            &\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{TSLS}&\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{TSLS}&\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{TSLS}&\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{TSLS}\\
+\hline
+Constant    &      5.1298&      6.1337&   -8.72e+03&    -91.5525&      5.0778&      6.8337&   -7.23e+03&    -27.6329\\
+            &    (0.0050)&    (0.3536)& (2092.8534)&   (46.2259)&    (0.0059)&    (0.3818)& (2039.0486)&   (48.7166)\\
+[1em]
+Years of Education&      0.0573&     -0.0191&      0.0573&      0.2796&      0.0520&     -0.0734&      0.0521&      0.0525\\
+            &    (0.0003)&    (0.0269)&    (0.0003)&    (0.1610)&    (0.0003)&    (0.0273)&    (0.0003)&    (0.1794)\\
+[1em]
+Race(1=Black)&            &            &            &            &     -0.2107&     -0.3668&     -0.2108&     -0.2103\\
+            &            &            &            &            &    (0.0032)&    (0.0341)&    (0.0032)&    (0.2232)\\
+[1em]
+SMSA (1=Center City)&            &            &            &            &     -0.1418&     -0.2568&     -0.1419&     -0.1415\\
+            &            &            &            &            &    (0.0023)&    (0.0251)&    (0.0023)&    (0.1644)\\
+[1em]
+Married(1=Married)&            &            &            &            &      0.2445&      0.2415&      0.2444&      0.2444\\
+            &            &            &            &            &    (0.0022)&    (0.0027)&    (0.0022)&    (0.0047)\\
+[1em]
+Age         &            &            &      8.9991&      0.0483&            &            &      7.4619&      0.0169\\
+            &            &            &    (2.1635)&    (0.0228)&            &            &    (2.1079)&    (0.0238)\\
+[1em]
+Age-Squared &            &            &     -0.0023&      0.0000&            &            &     -0.0019&      0.0000\\
+            &            &            &    (0.0006)&         (.)&            &            &    (0.0005)&         (.)\\
+[1em]
+Year-of-Birth dummies &         Yes&         Yes&         Yes&         Yes&         Yes&         Yes&         Yes&         Yes\\
+[1em]
+Region dummies &          No&          No&          No&          No&         Yes&         Yes&         Yes&         Yes\\
+\hline
+R^2         &      0.0828&           .&      0.0829&           .&      0.1294&           .&      0.1295&      0.1295\\
+\hline\hline
+\multicolumn{9}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{9}{l}{\footnotesize Standard errors in parentheses. Sample: men born 1940–1949 in the 1980 Census. TSLS uses quarter-of-birth × year-of-birth interactions as instruments. Models include a constant, year-of-birth dummies, and additional controls as indicated. Outcome is log weekly wages.}\\
+\end{tabular}
+\end{table}
